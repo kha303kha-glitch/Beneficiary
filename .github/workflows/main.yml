@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m "First commit: Beneficiary App with Address and Notes"
+git branch -M main
+gh repo create BeneficiaryApp --private --source=. --remote=origin --push
